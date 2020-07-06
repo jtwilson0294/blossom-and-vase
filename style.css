@@ -1,0 +1,51 @@
+* {
+  /* CSS Reset */
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+.logo {
+  max-width: 30vw;
+  display: block;
+  margin: auto;
+}
+
+nav {
+  background-color: white;
+  padding: 1em;
+  white-space: nowrap;
+  position: sticky;
+  top: 0em;
+}
+
+nav li {
+  width: 25%;
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5em;  
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.current-page {
+  color: #FDCABF;
+}
+
+article.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+article.about img {
+  max-width: 40vw;
+  margin: auto;
+  order: 1;
+}
+
+article.about p {
+  order: 2;
+}
