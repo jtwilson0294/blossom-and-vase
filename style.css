@@ -78,3 +78,29 @@ div.block-text p {
 div.photo p {
   margin: 0rem 1.5rem 3rem 3rem;
 }
+
+footer p {
+  text-align: center;
+}
+
+footer p.copyright {
+  margin-bottom: 2rem;
+}
+
+footer ul {
+  max-width: 30vw;
+  margin: auto;
+  white-space: nowrap;
+}
+
+footer li {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+footer li img {
+  max-height: 4rem;
+  padding: 2rem 0rem;
+}
