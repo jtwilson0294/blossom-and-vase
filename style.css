@@ -5,47 +5,76 @@
   font-family: arial;
 }
 
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
 .logo {
   max-width: 30vw;
   display: block;
   margin: auto;
+  margin-bottom: 0;
 }
 
 nav {
   background-color: white;
-  padding: 1em;
+  padding: 1rem 12rem 1rem 12rem;
   white-space: nowrap;
   position: sticky;
   top: 0em;
+  
 }
 
 nav li {
   width: 25%;
   display: inline-block;
   text-align: center;
-  font-size: 1.5em;  
+  font-size: 1.5rem;  
+  
 }
 
 nav li a {
   text-decoration: none;
+  color: #848484;
+  font-family: 'Playfair Display', serif;
+  
+}
+
+nav li a:hover {
+  text-decoration: underline;
 }
 
 .current-page {
-  color: #FDCABF;
+  color: #C08189;
+  text-decoration: underline;
+  font-family: 'Playfair Display', serif;
 }
 
 article.about {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-article.about img {
-  max-width: 40vw;
-  margin: auto;
+article.about div.photo img {
+  max-width: 50vw;
+  margin: 3rem 1.5rem 1.5rem 3rem;
   order: 1;
 }
 
-article.about p {
+article.about div.block-text {
   order: 2;
+  max-width: 50vw;
+  margin: 3rem 3rem 3rem 1.5rem; 
+}
+
+div.block-text p {
+  margin-top: 2rem;
+  line-height: 2.8rem;
+}
+
+div.photo p {
+  margin: 0rem 1.5rem 3rem 3rem;
 }
