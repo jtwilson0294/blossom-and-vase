@@ -66,14 +66,14 @@ article.about {
 }
 
 article.about div.photo img {
-  max-width: 45vw;
+  max-width: 40vw;
   margin: 3rem 1.5rem 1.5rem 3rem;
   order: 1;
 }
 
 article.about div.block-text {
   order: 2;
-  max-width: 45vw;
+  max-width: 40vw;
   margin: 3rem 3rem 3rem 1.5rem; 
 }
 
