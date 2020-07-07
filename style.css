@@ -11,16 +11,21 @@ h1 {
   font-weight: lighter;
 }
 
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
 .logo {
   max-width: 30vw;
   display: block;
   margin: auto;
   margin-bottom: 0;
+  padding: 2rem 0rem;
 }
 
 nav {
   background-color: white;
-  padding: 1rem 12rem 1rem 12rem;
+  padding: 1rem 24rem 1rem 24rem;
   white-space: nowrap;
   position: sticky;
   top: 0em;
@@ -43,14 +48,16 @@ nav li a {
 }
 
 nav li a:hover {
-  text-decoration: underline;
+  border-bottom: 2px dotted #848484;
 }
 
-.current-page {
+.current-page p {
+  display: inline-block;
   color: #C08189;
-  text-decoration: underline;
+  border-bottom: 2px dotted #C08189;
   font-family: 'Playfair Display', serif;
 }
+
 
 article.about {
   display: flex;
@@ -59,24 +66,35 @@ article.about {
 }
 
 article.about div.photo img {
-  max-width: 50vw;
+  max-width: 45vw;
   margin: 3rem 1.5rem 1.5rem 3rem;
   order: 1;
 }
 
 article.about div.block-text {
   order: 2;
-  max-width: 50vw;
+  max-width: 45vw;
   margin: 3rem 3rem 3rem 1.5rem; 
 }
 
 div.block-text p {
   margin-top: 2rem;
-  line-height: 2.8rem;
+  line-height: 2.4rem;
 }
 
 div.photo p {
+  color: #848484;
+  font-size: 0.8rem;
   margin: 0rem 1.5rem 3rem 3rem;
+}
+
+footer {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+footer h2 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 footer p {
@@ -84,17 +102,18 @@ footer p {
 }
 
 footer p.copyright {
-  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  color: #848484;
 }
 
 footer ul {
-  max-width: 30vw;
+  max-width: 18vw;
   margin: auto;
   white-space: nowrap;
 }
 
 footer li {
-  width: 33%;
+  width: 50%;
   display: inline-block;
   text-align: center;
   
@@ -102,5 +121,5 @@ footer li {
 
 footer li img {
   max-height: 4rem;
-  padding: 2rem 0rem;
+  padding: 2rem 0rem 6rem 0rem;
 }
