@@ -25,7 +25,8 @@ p {
 
 nav {
   background-color: white;
-  padding: 1rem 24rem 1rem 24rem;
+  max-width: 1200px;
+  padding: 0.5rem 0rem;
   white-space: nowrap;
   position: sticky;
   top: 0em;
@@ -124,4 +125,34 @@ footer li {
 footer li img {
   max-height: 4rem;
   padding: 2rem 0rem 6rem 0rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+
+  article {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  article.about div.photo img, article.about div.block-text {
+  
+    max-width: 90vw;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }  
+
+
+
+  div.photo p {
+    max-width: 90vw;
+    margin-bottom: 0;
+    
+  }
+
+
+
+
+
+
 }
