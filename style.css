@@ -16,7 +16,7 @@ p {
 }
 
 .logo {
-  max-width: 30vw;
+  max-width: 30%;
   display: block;
   margin: auto;
   margin-bottom: 0;
@@ -25,18 +25,18 @@ p {
 
 nav {
   background-color: white;
-  max-width: 1200px;
   padding: 0.5rem 0rem;
   white-space: nowrap;
   position: sticky;
   top: 0em;
+  text-align: center;
   
 }
 
 nav li {
-  width: 25%;
+  width: 24%;
   display: inline-block;
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.5rem;  
   
 }
@@ -64,6 +64,7 @@ article.about {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  
 }
 
 article.about div.photo img {
@@ -73,9 +74,10 @@ article.about div.photo img {
 }
 
 article.about div.block-text {
-  order: 2;
   max-width: 40vw;
-  margin: 3rem 3rem 3rem 1.5rem; 
+  margin: 3rem 0rem 3rem 1.5rem; 
+  order: 2;
+
 }
 
 div.block-text p {
@@ -135,18 +137,24 @@ footer li img {
     justify-content: center;
   }
 
-  article.about div.photo img, article.about div.block-text {
+  article.about div.photo img {
   
-    max-width: 90vw;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    max-width: 90%;
+    margin: 10% 5% 0 5%;
   }  
+
+  article.about div.block-text {
+
+    max-width: 90%;
+    margin: 10%;
+    text-align: center;
+  }
 
 
 
   div.photo p {
-    max-width: 90vw;
-    margin-bottom: 0;
+    max-width: 90%;
+    margin: 0 10%;
     
   }
 
