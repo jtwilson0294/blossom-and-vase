@@ -9,3 +9,5 @@ Website for Chloe's floral business
 * Make header and footer reusable components vs copy/paste on each page?
 
 * Finalize site map
+
+* Gather SEO resources
