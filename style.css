@@ -1,0 +1,166 @@
+* {
+  /* CSS Reset */
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+.logo {
+  max-width: 30%;
+  display: block;
+  margin: auto;
+  margin-bottom: 0;
+  padding: 2rem 0rem;
+}
+
+nav {
+  background-color: white;
+  padding: 0.5rem 0rem;
+  white-space: nowrap;
+  position: sticky;
+  top: 0em;
+  text-align: center;
+  
+}
+
+nav li {
+  width: 24%;
+  display: inline-block;
+  /* text-align: center; */
+  font-size: 1.5rem;  
+  
+}
+
+nav li a {
+  text-decoration: none;
+  color: #848484;
+  font-family: 'Playfair Display', serif;
+  
+}
+
+nav li a:hover {
+  border-bottom: 2px dotted #848484;
+}
+
+.current-page p {
+  display: inline-block;
+  color: #C08189;
+  border-bottom: 2px dotted #C08189;
+  font-family: 'Playfair Display', serif;
+}
+
+
+article.about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
+
+article.about div.photo img {
+  max-width: 40vw;
+  margin: 3rem 1.5rem 0.3rem 3rem;
+  order: 1;
+}
+
+article.about div.block-text {
+  max-width: 40vw;
+  margin: 3rem 0rem 3rem 1.5rem; 
+  order: 2;
+
+}
+
+div.block-text p {
+  margin-top: 2rem;
+  line-height: 2.4rem;
+}
+
+
+div.photo p {
+  color: #848484;
+  font-size: 0.6rem;
+  margin: 0rem 1.5rem 3rem 3rem;
+}
+
+footer {
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+footer h2 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer p.copyright {
+  font-size: 0.8rem;
+  color: #848484;
+}
+
+footer ul {
+  max-width: 18vw;
+  margin: auto;
+  white-space: nowrap;
+}
+
+footer li {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+footer li img {
+  max-height: 4rem;
+  padding: 2rem 0rem 6rem 0rem;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+
+  article {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  article.about div.photo img {
+  
+    max-width: 90%;
+    margin: 10% 5% 0 5%;
+  }  
+
+  article.about div.block-text {
+
+    max-width: 90%;
+    margin: 10%;
+    text-align: center;
+  }
+
+
+
+  div.photo p {
+    max-width: 90%;
+    margin: 0 10%;
+    
+  }
+
+
+
+
+
+
+}
