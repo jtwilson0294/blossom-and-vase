@@ -12,4 +12,4 @@ Website for Chloe's floral business
 
 * Gather SEO resources
 
-* Most likely tech stack: Gatsby or other static site generator hosted with Netlify and Cloudnary for media
+* Most likely tech stack: static site generator? What about form submission? Integrate payment?
